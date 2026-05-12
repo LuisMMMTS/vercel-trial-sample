@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vercel trial sample</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 16px/1.5 system-ui, -apple-system, sans-serif;
+    margin: 0; padding: 4rem 1.5rem; max-width: 38rem;
+    margin-inline: auto;
+  }
+  h1 { font-size: 1.5rem; margin-bottom: 1rem; }
+  code { background: rgba(127,127,127,.15); padding: 0.1em 0.3em; border-radius: 3px; }
+  small { opacity: 0.7; }
+</style>
+</head>
+<body>
+  <h1>Vercel trial sample</h1>
+  <p>
+    Tiny static page used to exercise Vercel against a public GitHub repo
+    as part of the PE-1257 internal-apps trial.
+  </p>
+  <p>
+    <small>Page loaded: <span id="t"></span></small>
+  </p>
+  <script>
+    document.getElementById('t').textContent = new Date().toISOString();
+  </script>
+</body>
+</html>
