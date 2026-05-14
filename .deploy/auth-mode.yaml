@@ -1,0 +1,7 @@
+# Declared auth model for this app. Encoded by set-auth-mode.sh; re-applied
+# on every adopt/init. Edit this file ONLY by re-running the script — the
+# Vercel-side state has to be reconciled with whatever you change here.
+
+mode: vercel-auth
+audience: specific Vercel users invited to the project
+last_set: 2026-05-14T12:07:42Z
